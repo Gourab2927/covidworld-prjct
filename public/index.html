@@ -39,5 +39,15 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 </body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
+	
+	<script type="text/javascript">
+		$(function(){
+			var f=$('#foo')
+			f.load(function(){ 
+				f.contents().find('herf').hide(); 
+			})
+		})
+	</script>
 
 </html>
