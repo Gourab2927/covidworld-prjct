@@ -4,7 +4,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <iframe class="responsive-iframe" src="https://covid3d.live/"></iframe>
+      <iframe id="foo" class="responsive-iframe" src="https://covid3d.live/"></iframe>
     </div>  
   );
 }
