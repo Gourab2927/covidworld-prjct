@@ -6,7 +6,7 @@ export default function App() {
    
     <div className="App">
      
-      <iframe class="loader" class="responsive-iframe" src="https://covid3d.live/"></iframe>
+      <iframe class="not-active" class="responsive-iframe" src="https://covid3d.live/"></iframe>
     </div>  
   );
 }
