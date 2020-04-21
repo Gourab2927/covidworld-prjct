@@ -3,7 +3,9 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div id="myModal" class="modal fade">
+   
+    <div className="App">
+      <div id="myModal" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -25,7 +27,6 @@ export default function App() {
         </div>
     </div>
 </div>
-    <div className="App">
       <iframe class="loader" class="responsive-iframe" src="https://covid3d.live/"></iframe>
     </div>  
   );
